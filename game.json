@@ -190,6 +190,15 @@
         "name": "Textures/woodPlatform.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/wall.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -222,7 +231,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.712
+        "zoomFactor": 0.64
       },
       "objectsGroups": [],
       "variables": [],
@@ -871,6 +880,66 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 2979,
+          "layer": "",
+          "locked": false,
+          "name": "IceWall",
+          "width": 641,
+          "x": -647,
+          "y": -1627,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 531,
+          "layer": "",
+          "locked": false,
+          "name": "IceWall",
+          "width": 1597,
+          "x": -55,
+          "y": 814,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 531,
+          "layer": "",
+          "locked": false,
+          "name": "IceWall",
+          "width": 2237,
+          "x": -695,
+          "y": -2168,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 3517,
+          "layer": "",
+          "locked": false,
+          "name": "IceWall",
+          "width": 641,
+          "x": 1540,
+          "y": -2170,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1254,6 +1323,16 @@
               ]
             }
           ]
+        },
+        {
+          "height": 128,
+          "name": "IceWall",
+          "tags": "",
+          "texture": "Textures/wall.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
