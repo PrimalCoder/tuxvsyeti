@@ -1,4 +1,4 @@
-# Tux VS YET
+# Tux VS YETI
 A platforming game, inspired by classic Donkey Kong, Donkey Kong jr and Donkey Kong Gameboy
 
 This Game was created with Gdevelop. https://gdevelop-app.com/
