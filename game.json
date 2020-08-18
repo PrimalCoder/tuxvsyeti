@@ -370,6 +370,186 @@
         "name": "Textures/Tux/ladder-7.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowball.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Yeti/y7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Yeti/y7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/snowballM12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/snowballM12.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -402,7 +582,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.024
+        "zoomFactor": 0.64
       },
       "objectsGroups": [],
       "variables": [],
@@ -414,6 +594,7 @@
           "layer": "",
           "locked": false,
           "name": "Player",
+          "persistentUuid": "2965561a-9111-400a-80a3-8b5da2ea333f",
           "width": 35,
           "x": 56,
           "y": 715,
@@ -429,6 +610,7 @@
           "layer": "",
           "locked": false,
           "name": "Sky",
+          "persistentUuid": "bd653a77-7273-4833-b185-7298789c86b7",
           "width": 1550,
           "x": -18,
           "y": -1642,
@@ -444,6 +626,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "efa937c8-d7a4-4dd9-9ea8-6b69035b1f42",
           "width": 1313,
           "x": 236,
           "y": -894,
@@ -459,6 +642,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "696169ab-324c-4b28-afc6-edbe34cf8a6b",
           "width": 1525,
           "x": -1,
           "y": 774,
@@ -474,6 +658,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "bab10eb4-0292-4ef4-b552-2d81c56e3d01",
           "width": 1192,
           "x": -3,
           "y": 444,
@@ -489,6 +674,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "570e06a5-80c3-42e6-8d41-4a70bea60ac6",
           "width": 1313,
           "x": 173,
           "y": 96,
@@ -504,6 +690,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "8bb51922-0bd3-412f-8532-88ea4414628a",
           "width": 1313,
           "x": 227,
           "y": -559,
@@ -519,6 +706,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "b6c3a4e0-715c-4f90-879b-7f9b0135fb0a",
           "width": 1192,
           "x": -8,
           "y": -188,
@@ -534,6 +722,7 @@
           "layer": "",
           "locked": false,
           "name": "WoodPlatform",
+          "persistentUuid": "2fe55612-9dae-44a4-b2b4-61524b3dfc03",
           "width": 1192,
           "x": -13,
           "y": -1217,
@@ -549,6 +738,7 @@
           "layer": "",
           "locked": false,
           "name": "Bounds",
+          "persistentUuid": "38b00ee6-be1c-47e7-b823-fbf3cfc7e688",
           "width": 64,
           "x": -61,
           "y": -1642,
@@ -564,6 +754,7 @@
           "layer": "",
           "locked": false,
           "name": "Cloud",
+          "persistentUuid": "511f3729-9a4a-49a1-b2c1-b1c799aa29f7",
           "width": 260,
           "x": 31,
           "y": -530,
@@ -579,6 +770,7 @@
           "layer": "",
           "locked": false,
           "name": "Cloud",
+          "persistentUuid": "39e76f08-e507-4e18-9e9f-ab35ae19473e",
           "width": 260,
           "x": 772,
           "y": -1553,
@@ -594,6 +786,7 @@
           "layer": "",
           "locked": false,
           "name": "Cloud",
+          "persistentUuid": "f11e7601-b451-4b0a-99cb-502cfe1b4cb2",
           "width": 260,
           "x": 302,
           "y": -1509,
@@ -609,6 +802,7 @@
           "layer": "",
           "locked": false,
           "name": "Cloud",
+          "persistentUuid": "d4184307-8e3e-4ee2-9e25-7f771f9591bb",
           "width": 260,
           "x": 1031,
           "y": -863,
@@ -620,13 +814,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 118,
+          "height": 185,
           "layer": "",
           "locked": false,
           "name": "Yeti",
-          "width": 89,
-          "x": 210,
-          "y": -1361,
+          "persistentUuid": "d37746db-1f94-4a6c-8d1f-b82c366507ee",
+          "width": 137,
+          "x": 213,
+          "y": -1417,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -639,6 +834,7 @@
           "layer": "",
           "locked": false,
           "name": "Penny",
+          "persistentUuid": "27564926-f926-4f0b-a1b9-daeb1b986e94",
           "width": 36,
           "x": 52,
           "y": -1295,
@@ -654,6 +850,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "d20acb36-0209-4c7c-81e9-e081f459e9b7",
           "width": 0,
           "x": 230,
           "y": 683,
@@ -669,6 +866,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "835f8e30-b3ba-4836-9480-139b2c2bccdf",
           "width": 0,
           "x": 230,
           "y": 459,
@@ -684,6 +882,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "47eefa50-928b-482e-b9b2-d3e6e2f90a5c",
           "width": 0,
           "x": 940,
           "y": 655,
@@ -699,6 +898,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "23228a20-8f00-4cd1-a67c-6dad3bc5ed80",
           "width": 0,
           "x": 940,
           "y": 560,
@@ -714,6 +914,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "5f30a890-abf6-40cf-ba23-3f9542941dea",
           "width": 0,
           "x": 940,
           "y": 465,
@@ -729,6 +930,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "2f8389f3-a170-456c-8355-22d8e703e01e",
           "width": 0,
           "x": 312,
           "y": 306,
@@ -744,6 +946,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "ac337b05-7065-48ff-b6d7-a8b8c26557f2",
           "width": 0,
           "x": 312,
           "y": 212,
@@ -759,6 +962,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "ec015566-5cfd-4c4c-8291-5648ea5c581b",
           "width": 0,
           "x": 987,
           "y": -2,
@@ -774,6 +978,7 @@
           "layer": "",
           "locked": false,
           "name": "IceBG",
+          "persistentUuid": "3f130db2-3006-42d9-a53a-60c487cb63a2",
           "width": 1531,
           "x": -7,
           "y": -326,
@@ -789,6 +994,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "f186b03d-afbc-4761-966f-8fc1b8ce68f8",
           "width": 0,
           "x": 312,
           "y": 119,
@@ -804,6 +1010,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "1adea6bb-2326-46be-8a05-03e79b33fcce",
           "width": 0,
           "x": 540,
           "y": 6,
@@ -819,6 +1026,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "c22875cf-0ea2-4c58-9a05-f8ca6d022dfc",
           "width": 0,
           "x": 540,
           "y": -88,
@@ -834,6 +1042,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "1a6d1431-f12c-41df-b561-a43e065f449f",
           "width": 0,
           "x": 540,
           "y": -184,
@@ -849,6 +1058,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "f8d38bb5-16b8-41f4-97cb-694198b7104f",
           "width": 0,
           "x": 985,
           "y": -162,
@@ -864,6 +1074,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "116090ac-6ed5-4b8f-b464-2fc9cbf4ef07",
           "width": 0,
           "x": 987,
           "y": -67,
@@ -879,6 +1090,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "e45f3565-6c65-4fd3-99b4-8888ed5c6323",
           "width": 0,
           "x": 1042,
           "y": -659,
@@ -894,6 +1106,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "6eeb48cf-8514-45d8-9ae4-7ec1ee7bca1c",
           "width": 0,
           "x": 786,
           "y": -365,
@@ -909,6 +1122,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "29ede4d1-dceb-42a8-989a-43af709567e1",
           "width": 0,
           "x": 786,
           "y": -462,
@@ -924,6 +1138,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "98fe579b-9d4e-4df9-9049-87dc1e275b84",
           "width": 0,
           "x": 658,
           "y": -881,
@@ -939,6 +1154,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "b8983949-ef38-4b2c-be50-6e745e0b2705",
           "width": 0,
           "x": 1119,
           "y": -997,
@@ -954,6 +1170,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "871b157b-f463-42bd-8a49-5d33f663f886",
           "width": 0,
           "x": 786,
           "y": -554,
@@ -969,6 +1186,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "a3184c92-4889-4e76-bb85-93a5a4e3e342",
           "width": 0,
           "x": 658,
           "y": -689,
@@ -984,6 +1202,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "c0456d92-6ff4-48fa-88ee-7aab2aa4bd6f",
           "width": 0,
           "x": 658,
           "y": -785,
@@ -999,6 +1218,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "ed1cfe99-657a-4087-8cc5-30b8a14afe39",
           "width": 0,
           "x": 1042,
           "y": -899,
@@ -1014,6 +1234,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "3d5ee4ac-6e53-4c51-aa1b-01bca9137fef",
           "width": 0,
           "x": 1120,
           "y": -1184,
@@ -1029,6 +1250,7 @@
           "layer": "",
           "locked": false,
           "name": "Ladder",
+          "persistentUuid": "9d1cb574-bad4-4504-94c2-c90bcf1addfc",
           "width": 0,
           "x": 1120,
           "y": -1092,
@@ -1044,6 +1266,7 @@
           "layer": "",
           "locked": false,
           "name": "Bounds",
+          "persistentUuid": "9cff39d5-2292-4d4c-8c28-87003bbca433",
           "width": 64,
           "x": 1478,
           "y": -1649,
@@ -1059,6 +1282,7 @@
           "layer": "",
           "locked": false,
           "name": "IceWall",
+          "persistentUuid": "bd165d99-e9ea-4488-933a-26c543dae870",
           "width": 641,
           "x": -640,
           "y": -1643,
@@ -1074,6 +1298,7 @@
           "layer": "",
           "locked": false,
           "name": "IceWall",
+          "persistentUuid": "7178567a-c102-4f97-b7e0-f43b5cfed529",
           "width": 1597,
           "x": -55,
           "y": 814,
@@ -1089,6 +1314,7 @@
           "layer": "",
           "locked": false,
           "name": "IceWall",
+          "persistentUuid": "6d9fca4d-1852-40ad-aaaa-bb3f4a3c9e18",
           "width": 2237,
           "x": -695,
           "y": -2168,
@@ -1104,6 +1330,7 @@
           "layer": "",
           "locked": false,
           "name": "IceWall",
+          "persistentUuid": "644e4511-0412-4162-82c5-509e52a828c8",
           "width": 641,
           "x": 1460,
           "y": -2171,
@@ -1119,6 +1346,7 @@
           "layer": "",
           "locked": false,
           "name": "Hero",
+          "persistentUuid": "07d6b0ec-c78a-49d5-b09f-ee88d296a302",
           "width": 59,
           "x": 44,
           "y": 706,
@@ -1134,6 +1362,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "e66a15ac-cc61-4161-9315-d606cbc4bdbc",
           "width": 38,
           "x": 1055,
           "y": -657,
@@ -1149,6 +1378,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "ac5fba86-d8cf-4d87-bb31-6e4de5558da0",
           "width": 38,
           "x": 243,
           "y": 689,
@@ -1164,6 +1394,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "89e087a3-5f84-4f7f-bb15-dab3479e1a40",
           "width": 38,
           "x": 953,
           "y": 461,
@@ -1179,6 +1410,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "1f61f18f-d766-4a97-afe7-d45c2169b76d",
           "width": 38,
           "x": 324,
           "y": 121,
@@ -1194,6 +1426,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "f34d7129-1e21-4c43-b9b2-4926542f304b",
           "width": 38,
           "x": 552,
           "y": -188,
@@ -1209,6 +1442,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "551a62d0-a301-4fa6-81e5-4be9ff67f579",
           "width": 38,
           "x": 999,
           "y": -170,
@@ -1224,6 +1458,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "4dd195b8-86a1-435f-b3aa-dec74324ff9d",
           "width": 38,
           "x": 798,
           "y": -559,
@@ -1239,6 +1474,7 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "6a838500-55c0-460b-a32f-6cd97375af4a",
           "width": 38,
           "x": 1132,
           "y": -1188,
@@ -1254,10 +1490,107 @@
           "layer": "",
           "locked": false,
           "name": "climable",
+          "persistentUuid": "886511fb-5ad5-4e7c-9e29-d7d08c80fd66",
           "width": 38,
           "x": 670,
           "y": -886,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "7370b47c-358b-40c4-a8b5-75d1aaa6f1d4",
+          "width": 78,
+          "x": 145,
+          "y": -1374,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "f9a532d5-4f85-4604-8a5f-0364501c1c44",
+          "width": 78,
+          "x": 271,
+          "y": -1297,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "b9a7a764-ceb1-47ba-aee5-68b148599154",
+          "width": 78,
+          "x": 272,
+          "y": -1361,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "94c588ea-ff39-4d03-b72c-d28e175edb99",
+          "width": 78,
+          "x": 217,
+          "y": -1370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "379b88e1-2939-4014-bb3e-19fd3c8d6087",
+          "width": 78,
+          "x": 211,
+          "y": -1303,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 68,
+          "layer": "",
+          "locked": false,
+          "name": "StaticSnowball",
+          "persistentUuid": "3cbcdee2-1d5b-4abf-9153-71d574300fe0",
+          "width": 78,
+          "x": 143,
+          "y": -1309,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1338,7 +1671,7 @@
           ],
           "animations": [
             {
-              "name": "Blue",
+              "name": "Stand",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1347,7 +1680,133 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Textures/Blue-1.png",
+                      "image": "Textures/Yeti/y.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Throwing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Leaving",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Yeti/y7.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2048,10 +2507,10 @@
           "variables": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "Ladder",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Ladder",
               "yGrabOffset": 0
             }
           ],
@@ -2067,6 +2526,271 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MovingSnowball",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowballM12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "StaticSnowball",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/snowball.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
