@@ -623,7 +623,7 @@
           "angle": -3,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "WoodPlatform",
           "persistentUuid": "efa937c8-d7a4-4dd9-9ea8-6b69035b1f42",
@@ -687,7 +687,7 @@
           "angle": -3,
           "customSize": true,
           "height": 44,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "WoodPlatform",
           "persistentUuid": "8bb51922-0bd3-412f-8532-88ea4414628a",
@@ -719,7 +719,7 @@
           "angle": 3,
           "customSize": true,
           "height": 48,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "WoodPlatform",
           "persistentUuid": "2fe55612-9dae-44a4-b2b4-61524b3dfc03",
@@ -815,7 +815,7 @@
           "angle": 0,
           "customSize": true,
           "height": 185,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "Yeti",
           "persistentUuid": "d37746db-1f94-4a6c-8d1f-b82c366507ee",
@@ -1135,7 +1135,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "Ladder",
           "persistentUuid": "98fe579b-9d4e-4df9-9049-87dc1e275b84",
@@ -1183,7 +1183,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "Ladder",
           "persistentUuid": "a3184c92-4889-4e76-bb85-93a5a4e3e342",
@@ -1199,7 +1199,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "Ladder",
           "persistentUuid": "c0456d92-6ff4-48fa-88ee-7aab2aa4bd6f",
@@ -1215,7 +1215,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Playfield",
           "locked": false,
           "name": "Ladder",
           "persistentUuid": "ed1cfe99-657a-4087-8cc5-30b8a14afe39",
@@ -1608,16 +1608,21 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 61,
+          "height": 41,
           "layer": "",
           "locked": false,
           "name": "MovingSnowball",
           "persistentUuid": "6cd03e42-0a83-424b-9070-a014c2014887",
-          "width": 58,
+          "width": 41,
           "x": 258,
           "y": -2310,
           "zOrder": 12,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": [
             {
@@ -1632,7 +1637,7 @@
           "height": 186,
           "layer": "",
           "locked": false,
-          "name": "ReDirect",
+          "name": "ReDirectLeft",
           "persistentUuid": "cf79f175-b4bd-4258-ab43-0412de891c00",
           "width": 21,
           "x": 1424,
@@ -1648,7 +1653,7 @@
           "height": 205,
           "layer": "",
           "locked": false,
-          "name": "ReDirect",
+          "name": "ReDirectLeft",
           "persistentUuid": "ee9d4e44-0737-4dce-9c7a-fcb410841e0e",
           "width": 11,
           "x": 1411,
@@ -1664,11 +1669,11 @@
           "height": 220,
           "layer": "",
           "locked": false,
-          "name": "ReDirect",
+          "name": "ReDirectLeft",
           "persistentUuid": "aa8d4a7d-521f-4c06-8083-30e518a1ba3c",
           "width": 10,
-          "x": 1430,
-          "y": -152,
+          "x": 1404,
+          "y": -149,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1677,15 +1682,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 198,
+          "height": 222,
           "layer": "",
           "locked": false,
-          "name": "ReDirect",
-          "persistentUuid": "2fbb1781-f655-46fc-9e06-67420d16d362",
-          "width": 13,
-          "x": 7,
-          "y": 214,
-          "zOrder": 13,
+          "name": "ReDirectRight",
+          "persistentUuid": "d0870c95-1366-4bb7-a133-1348f015f96a",
+          "width": 19,
+          "x": 10,
+          "y": 191,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1693,15 +1698,47 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 237,
+          "height": 222,
           "layer": "",
           "locked": false,
-          "name": "ReDirect",
-          "persistentUuid": "d1730783-4cd9-473c-b701-507370ca20a9",
-          "width": 10,
-          "x": 13,
-          "y": -454,
-          "zOrder": 13,
+          "name": "ReDirectRight",
+          "persistentUuid": "f17d9ea1-1d8b-460d-a8b0-8a31df3abf79",
+          "width": 19,
+          "x": 30,
+          "y": -439,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "",
+          "locked": false,
+          "name": "Destroyer",
+          "persistentUuid": "754f1ff6-2616-4fc5-baa8-dd17bf983be7",
+          "width": 37,
+          "x": 4,
+          "y": 597,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "WoodPlatform",
+          "persistentUuid": "b9c3c19b-2275-4b4a-8c31-80b166410547",
+          "width": 0,
+          "x": 242,
+          "y": -2268,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2665,6 +2702,9 @@
           "variables": [],
           "behaviors": [
             {
+              "maxSpeed": 400,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGrabPlatforms": false,
               "deceleration": 1500,
@@ -2674,11 +2714,8 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -2702,10 +2739,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2719,10 +2756,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2736,10 +2773,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2753,10 +2790,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2770,10 +2807,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2787,10 +2824,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2804,10 +2841,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2821,10 +2858,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2838,10 +2875,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2855,10 +2892,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2872,10 +2909,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     },
@@ -2889,10 +2926,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 57,
+                        "y": 45
                       },
                       "customCollisionMask": []
                     }
@@ -2942,7 +2979,85 @@
           ]
         },
         {
-          "name": "ReDirect",
+          "name": "ReDirectRight",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ReDirectLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Destroyer",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3174,6 +3289,36 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Destroyer"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ReDirectRight"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ReDirectLeft"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -3266,7 +3411,7 @@
               "parameters": [
                 "MovingSnowball",
                 "=",
-                "61"
+                "41"
               ],
               "subInstructions": []
             },
@@ -3278,7 +3423,7 @@
               "parameters": [
                 "MovingSnowball",
                 "=",
-                "58"
+                "41"
               ],
               "subInstructions": []
             }
@@ -3383,20 +3528,6 @@
                 "0"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "MovingSnowball",
-                "ReDirect",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -3442,20 +3573,6 @@
                 "1"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "MovingSnowball",
-                "ReDirect",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
@@ -3496,7 +3613,7 @@
               },
               "parameters": [
                 "MovingSnowball",
-                "ReDirect",
+                "ReDirectLeft",
                 "",
                 "",
                 ""
@@ -3504,81 +3621,94 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "MovingSnowball",
-                    "Direction",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "MovingSnowball",
+                "Direction",
+                "=",
+                "1"
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "MovingSnowball",
-                    "Direction",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "MovingSnowball",
-                    "Direction",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "MovingSnowball",
-                    "Direction",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MovingSnowball",
+                "ReDirectRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "MovingSnowball",
+                "Direction",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MovingSnowball",
+                "Destroyer",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "MovingSnowball",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ],
       "layers": [
