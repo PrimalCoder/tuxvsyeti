@@ -586,6 +586,13 @@
         "name": "Textures/Tux/gameover-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Music/CaveLoop.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Music/CaveLoop.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -653,7 +660,7 @@
           "name": "Sky",
           "persistentUuid": "bd653a77-7273-4833-b185-7298789c86b7",
           "width": 1550,
-          "x": -18,
+          "x": -16,
           "y": -1642,
           "zOrder": 0,
           "numberProperties": [],
@@ -1329,8 +1336,8 @@
           "locked": false,
           "name": "IceWall",
           "persistentUuid": "bd165d99-e9ea-4488-933a-26c543dae870",
-          "width": 641,
-          "x": -640,
+          "width": 677,
+          "x": -675,
           "y": -1643,
           "zOrder": 9,
           "numberProperties": [],
@@ -3775,6 +3782,21 @@
                 "AltPath"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Music/CaveLoop.wav",
+                "1",
+                "",
+                "30",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4329,7 +4351,7 @@
               },
               "parameters": [
                 "",
-                "RandomInRange(5, 10)",
+                "RandomInRange(3, 6)",
                 "\"YetiAttack\""
               ],
               "subInstructions": []
