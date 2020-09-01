@@ -4351,7 +4351,7 @@
               },
               "parameters": [
                 "",
-                "RandomInRange(3, 6)",
+                "RandomInRange(2, 4)",
                 "\"YetiAttack\""
               ],
               "subInstructions": []
