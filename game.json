@@ -600,6 +600,24 @@
         "metadata": "",
         "name": "Sounds/jump.wav",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Penny/penny_old.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Penny/penny_old.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/Penny/penny.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/Penny/penny.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -890,14 +908,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 54,
+          "height": 66,
           "layer": "",
           "locked": false,
           "name": "Penny",
           "persistentUuid": "27564926-f926-4f0b-a1b9-daeb1b986e94",
-          "width": 36,
-          "x": 52,
-          "y": -1295,
+          "width": 47,
+          "x": 144,
+          "y": -1304,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2042,7 +2060,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Textures/Blue-1.png",
+                      "image": "Textures/Penny/penny.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
