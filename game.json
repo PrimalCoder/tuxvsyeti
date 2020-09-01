@@ -593,6 +593,13 @@
         "metadata": "",
         "name": "Music/CaveLoop.wav",
         "userAdded": true
+      },
+      {
+        "file": "Sounds/jump.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds/jump.wav",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4058,6 +4065,17 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4115,6 +4133,14 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4127,6 +4153,20 @@
                 "Hero",
                 "=",
                 "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sounds/jump.wav",
+                "",
+                "35",
+                ""
               ],
               "subInstructions": []
             }
@@ -4351,7 +4391,7 @@
               },
               "parameters": [
                 "",
-                "RandomInRange(2, 4)",
+                "RandomInRange(3, 5)",
                 "\"YetiAttack\""
               ],
               "subInstructions": []
