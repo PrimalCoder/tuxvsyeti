@@ -7,7 +7,6 @@
     "revision": 0
   },
   "properties": {
-    "adMobAppId": "",
     "adaptGameResolutionAtRuntime": true,
     "folderProject": false,
     "linuxExecutableFilename": "",
@@ -33,6 +32,7 @@
     "loadingScreen": {
       "showGDevelopSplash": true
     },
+    "extensionProperties": [],
     "extensions": [
       {
         "name": "BuiltinObject"
@@ -618,6 +618,42 @@
         "name": "Textures/Penny/penny.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/FlyingPlatform/flying_platform-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/FlyingPlatform/flying_platform-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/FlyingPlatform/flying_platform-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/FlyingPlatform/flying_platform-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/FlyingPlatform/flying_platform-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/FlyingPlatform/flying_platform-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/FlyingPlatform/flying_platform-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/FlyingPlatform/flying_platform-3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -780,9 +816,9 @@
           "locked": false,
           "name": "WoodPlatform",
           "persistentUuid": "b6c3a4e0-715c-4f90-879b-7f9b0135fb0a",
-          "width": 1192,
-          "x": -8,
-          "y": -188,
+          "width": 1147,
+          "x": -34,
+          "y": -190,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -815,7 +851,7 @@
           "width": 64,
           "x": -61,
           "y": -1642,
-          "zOrder": 8,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -908,15 +944,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 66,
+          "height": 49,
           "layer": "",
           "locked": false,
           "name": "Penny",
           "persistentUuid": "27564926-f926-4f0b-a1b9-daeb1b986e94",
-          "width": 47,
-          "x": 144,
-          "y": -1304,
-          "zOrder": 6,
+          "width": 48,
+          "x": 169,
+          "y": -1274,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1364,7 +1400,7 @@
           "width": 677,
           "x": -675,
           "y": -1643,
-          "zOrder": 9,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1977,14 +2013,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 77,
+          "height": 119,
           "layer": "",
           "locked": false,
           "name": "ReDirectRight",
           "persistentUuid": "2fc5ee5f-0f38-4936-adac-a7ba22ccd7e7",
           "width": 79,
-          "x": 1,
-          "y": -292,
+          "x": -23,
+          "y": -337,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -2018,6 +2054,38 @@
           "x": 772,
           "y": -253,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 88,
+          "layer": "",
+          "locked": false,
+          "name": "FlyingPlatform",
+          "persistentUuid": "547f9841-1191-40ef-8182-c418257b1102",
+          "width": 248,
+          "x": 143,
+          "y": -1229,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 154,
+          "layer": "",
+          "locked": false,
+          "name": "LevelEnd",
+          "persistentUuid": "dbb18dd7-078e-4bb7-956e-9b981b850e07",
+          "width": 64,
+          "x": 440,
+          "y": -1384,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3543,6 +3611,135 @@
               ]
             }
           ]
+        },
+        {
+          "name": "FlyingPlatform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/FlyingPlatform/flying_platform-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/FlyingPlatform/flying_platform-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/FlyingPlatform/flying_platform-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/FlyingPlatform/flying_platform-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LevelEnd",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3602,6 +3799,42 @@
                 "Hero",
                 "=",
                 "Player.X()"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "FlyingPlatform",
+                "=",
+                "Yeti.Y()+182"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Penny",
+                "=",
+                "Yeti.X()-44"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Penny",
+                "=",
+                "FlyingPlatform.Y()-45"
               ],
               "subInstructions": []
             }
@@ -3817,9 +4050,29 @@
                 "",
                 "Music/CaveLoop.wav",
                 "1",
-                "",
+                "yes",
                 "30",
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseAnimation"
+              },
+              "parameters": [
+                "FlyingPlatform"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "LevelEnd"
               ],
               "subInstructions": []
             }
@@ -3866,6 +4119,11 @@
       ],
       "layers": [
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "",
           "visibility": true,
           "cameras": [
@@ -3883,6 +4141,11 @@
           "effects": []
         },
         {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
           "name": "Playfield",
           "visibility": true,
           "cameras": [],
@@ -3920,6 +4183,20 @@
               "parameters": [
                 "",
                 "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             },
@@ -3969,6 +4246,20 @@
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": [],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
+              ],
               "subInstructions": []
             }
           ],
@@ -4092,6 +4383,20 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -4276,6 +4581,20 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4345,6 +4664,20 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -4373,6 +4706,93 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Yeti",
+                "0",
+                "-40",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlayAnimation"
+              },
+              "parameters": [
+                "FlyingPlatform"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ]
@@ -4411,6 +4831,17 @@
                 "",
                 "RandomInRange(3, 5)",
                 "\"YetiAttack\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BehaviorActivated"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
               ],
               "subInstructions": []
             }
