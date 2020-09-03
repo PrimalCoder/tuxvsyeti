@@ -7,5 +7,5 @@ This Game was created with Gdevelop. https://gdevelop-app.com/
 Open the project with Gdevelop to export to yor platform of choice OR
 Play the game online at https://fildubek.itch.io/tuxvsyeti
 
-![Image of Tux VS Yeti](https://github.com/PrimalCoder/CavernExplorer/blob/master/sample2.png)
+![Image of Tux VS Yeti](https://github.com/PrimalCoder/tuxvsyeti/blob/master/sample2.png)
 
