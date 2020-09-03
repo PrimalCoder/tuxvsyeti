@@ -654,6 +654,38 @@
         "name": "Textures/FlyingPlatform/flying_platform-3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/HelpMe!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/HelpMe!.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/helpme.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds/helpme.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sounds/heli.wav",
+        "kind": "audio",
+        "metadata": "{\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 6\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":1.74,\\\"sustain\\\":0.52,\\\"sustainPunch\\\":0,\\\"decay\\\":3.68,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":7800,\\\"frequencySweep\\\":-5100,\\\"frequencyDeltaSweep\\\":-600,\\\"repeatFrequency\\\":5.800000000000001,\\\"frequencyJump1Onset\\\":20,\\\"frequencyJump1Amount\\\":-40,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"tangent\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":4200,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":5200,\\\"compression\\\":1.6,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"heli\"}}",
+        "name": "Sounds/heli.wav",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/HelpMe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/HelpMe.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2086,6 +2118,38 @@
           "x": 440,
           "y": -1384,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 147,
+          "layer": "",
+          "locked": false,
+          "name": "HelpMeMessage",
+          "persistentUuid": "faf8b487-1b7f-4216-b15e-fadfb9478c31",
+          "width": 189,
+          "x": 15,
+          "y": -1425,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "NextLevel",
+          "persistentUuid": "0bec118f-4089-4d5a-a506-331fe265f5ca",
+          "width": 533,
+          "x": 25,
+          "y": -2100,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3740,6 +3804,84 @@
               ]
             }
           ]
+        },
+        {
+          "name": "HelpMeMessage",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/HelpMe.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NextLevel",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3835,6 +3977,18 @@
                 "Penny",
                 "=",
                 "FlyingPlatform.Y()-45"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "HelpMeMessage",
+                "=",
+                "Penny.Y()-140\n"
               ],
               "subInstructions": []
             }
@@ -4073,6 +4227,26 @@
               },
               "parameters": [
                 "LevelEnd"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "HelpMeMessage"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "NextLevel"
               ],
               "subInstructions": []
             }
@@ -4743,7 +4917,7 @@
                 "value": "ChangeAnimation"
               },
               "parameters": [
-                "Player",
+                "Hero",
                 "=",
                 "1"
               ],
@@ -4769,7 +4943,7 @@
               "parameters": [
                 "Yeti",
                 "0",
-                "-40",
+                "-100",
                 "1"
               ],
               "subInstructions": []
@@ -4783,6 +4957,47 @@
                 "FlyingPlatform"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "HelpMeMessage",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Sounds/helpme.wav",
+                "1",
+                "yes",
+                "20",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "Sounds/heli.wav",
+                "2",
+                "yes",
+                "20",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4791,8 +5006,58 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Yeti",
+                "NextLevel",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ]
