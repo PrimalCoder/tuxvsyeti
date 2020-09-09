@@ -710,10 +710,10 @@
       "variables": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ]
@@ -1523,7 +1523,12 @@
     }
   ],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Level",
+      "value": "0"
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1575,7 +1580,7 @@
             },
             {
               "name": "TooHigh",
-              "value": "False"
+              "value": "0"
             }
           ]
         },
@@ -2334,8 +2339,8 @@
           "name": "Hero",
           "persistentUuid": "07d6b0ec-c78a-49d5-b09f-ee88d296a302",
           "width": 59,
-          "x": 44,
-          "y": 703,
+          "x": 47,
+          "y": 708,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4416,6 +4421,18 @@
                 "TooHigh"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4634,7 +4651,7 @@
             },
             {
               "name": "TooHigh",
-              "value": "False"
+              "value": "0"
             }
           ]
         },
@@ -4647,8 +4664,8 @@
           "name": "Hero",
           "persistentUuid": "4b61f099-3401-476a-a307-af7cff2caae4",
           "width": 59,
-          "x": 67,
-          "y": 575,
+          "x": 70,
+          "y": 574,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -4956,8 +4973,8 @@
           "name": "WoodPlatform",
           "persistentUuid": "5d61e4cd-0968-4f55-baf5-921922296881",
           "width": 324,
-          "x": 2049,
-          "y": -199,
+          "x": 2068,
+          "y": -202,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -5146,6 +5163,15 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "TuxDeath"
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -5248,8 +5274,28 @@
                 "TooHigh"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -6010,6 +6056,43 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "TooHigh",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "TooHigh",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         }
       ]
     },
@@ -6686,6 +6769,19 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "TooHigh",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -6731,16 +6827,123 @@
                 "0"
               ],
               "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 1\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "TooHigh",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "Player",
+                "WoodPlatform",
                 "",
-                "\"Level 1\"",
+                "",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Dead",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
