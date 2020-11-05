@@ -1741,6 +1741,53 @@
       ]
     },
     {
+      "name": "MovingClimable",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Ladder",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Textures/Blue-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "climable",
       "tags": "",
       "type": "Sprite",
@@ -8833,30 +8880,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 201,
+          "height": 96,
           "layer": "",
           "locked": false,
           "name": "climable",
           "persistentUuid": "5ce0d0a7-35a3-453b-bd61-a9e46caa7bad",
           "width": 30,
-          "x": 523,
-          "y": 570,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 197,
-          "layer": "",
-          "locked": false,
-          "name": "climable",
-          "persistentUuid": "657a3943-1c29-4851-8180-b661621e5e1f",
-          "width": 23,
-          "x": 327,
-          "y": -5,
+          "x": 1189,
+          "y": 101,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -8905,22 +8936,6 @@
           "width": 30,
           "x": 689,
           "y": 569,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "",
-          "locked": false,
-          "name": "climable",
-          "persistentUuid": "6d6d62bc-d611-40e3-bd3e-3e13c8c49caf",
-          "width": 19,
-          "x": 1197,
-          "y": -3,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -9050,22 +9065,6 @@
           "x": -4,
           "y": 797,
           "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 44,
-          "layer": "",
-          "locked": false,
-          "name": "ReAddMovement",
-          "persistentUuid": "990ca7cd-a59e-4dd4-a222-69ad387c70f3",
-          "width": 45,
-          "x": 1182,
-          "y": 156,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9289,22 +9288,6 @@
           "width": 45,
           "x": 199,
           "y": 157,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 44,
-          "layer": "",
-          "locked": false,
-          "name": "ReAddMovement",
-          "persistentUuid": "9f34d47b-28ca-43a0-aff8-c8b1db60f987",
-          "width": 45,
-          "x": 315,
-          "y": 156,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -9590,7 +9573,7 @@
           "locked": false,
           "name": "ActivatePlatform",
           "persistentUuid": "c9679c6c-fd83-4cdb-a28e-45a71b54d1f0",
-          "width": 86,
+          "width": 100,
           "x": 757,
           "y": 223,
           "zOrder": 13,
@@ -9606,9 +9589,9 @@
           "locked": false,
           "name": "ActivatePlatform",
           "persistentUuid": "08ba3f1d-54b9-4f10-81ca-921999690366",
-          "width": 90,
-          "x": 178,
-          "y": 226,
+          "width": 137,
+          "x": 154,
+          "y": 230,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -9660,7 +9643,12 @@
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
         },
         {
           "angle": 0,
@@ -9706,6 +9694,86 @@
           "x": 1337,
           "y": -245,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 149,
+          "layer": "",
+          "locked": false,
+          "name": "Shaker",
+          "persistentUuid": "c96a021e-ced1-48ab-861b-cfae881e2c40",
+          "width": 127,
+          "x": -56,
+          "y": -214,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 111,
+          "layer": "",
+          "locked": false,
+          "name": "MovingClimable",
+          "persistentUuid": "a6ec6e04-4e42-4498-bcd8-47adbba340f2",
+          "width": 17,
+          "x": 1199,
+          "y": -2,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 109,
+          "layer": "",
+          "locked": false,
+          "name": "MovingClimable",
+          "persistentUuid": "e619eaeb-1f85-4cc1-aba8-b216b2fea29a",
+          "width": 17,
+          "x": 329,
+          "y": -2,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 201,
+          "layer": "",
+          "locked": false,
+          "name": "climable",
+          "persistentUuid": "4d70f061-1286-499d-a804-657162da23c0",
+          "width": 30,
+          "x": 523,
+          "y": 570,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "climable",
+          "persistentUuid": "62dd19af-e232-4a31-aa91-7cc6f468915b",
+          "width": 30,
+          "x": 322,
+          "y": 103,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9763,6 +9831,45 @@
         },
         {
           "name": "YetiStopperLeft",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/Blue-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shaker",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -9876,6 +9983,18 @@
                 "FlyingPlatform",
                 "=",
                 "Yeti.Y()+102"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "FlyingPlatform",
+                "=",
+                "Yeti.X()-50"
               ],
               "subInstructions": []
             }
@@ -10000,76 +10119,44 @@
                 "ActivatePlatform"
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "Sprite"
+                "value": "Cache"
               },
               "parameters": [
-                "FlyingPlatform",
-                "=",
-                "0"
+                "YetiStopperRight"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "CameraY"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "=",
-                "CameraY()-10",
-                "0",
-                "0"
+                "YetiStopperLeft"
               ],
               "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": true,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "Sprite"
+                "value": "Cache"
               },
               "parameters": [
-                "FlyingPlatform",
-                "=",
-                "3"
+                "Shaker"
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "inverted": false,
-                "value": "CameraY"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "=",
-                "CameraY()+10",
-                "0",
-                "0"
+                "MovingClimable"
               ],
               "subInstructions": []
             }
@@ -10169,7 +10256,7 @@
               "parameters": [
                 "RandomNum",
                 "<",
-                "3"
+                "6"
               ],
               "subInstructions": []
             }
@@ -10286,6 +10373,351 @@
                 "YetiStopperLeft",
                 "=",
                 "-35"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Yeti",
+                "Direction",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Yeti",
+                "=",
+                "Yeti.X()+10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Yeti",
+                "Direction",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Yeti",
+                "=",
+                "Yeti.X()-10"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Yeti",
+                "YetiStopperLeft",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Yeti",
+                "Direction",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Yeti",
+                "YetiStopperRight",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosX"
+              },
+              "parameters": [
+                "Yeti",
+                ">",
+                "ReDirectRight.X()"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Yeti",
+                "Direction",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FlyingPlatform",
+                "Shaker",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingLadder",
+                "=",
+                "105"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingClimable",
+                "=",
+                "105"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "FlyingPlatform",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraY()-10",
+                    "0",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Sprite"
+                  },
+                  "parameters": [
+                    "FlyingPlatform",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraY()+10",
+                    "0",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "MovingLadder",
+                ">",
+                "-1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingLadder",
+                "=",
+                "MovingLadder.Y()-0.5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "MovingClimable",
+                ">",
+                "-1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "MovingClimable",
+                "=",
+                "MovingLadder.Y()-0.5"
               ],
               "subInstructions": []
             }
