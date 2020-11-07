@@ -961,6 +961,15 @@
         "name": "Textures/Red-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Textures/IceBg3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Textures/IceBg3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2732,6 +2741,45 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Textures/FlyingPlatform/flying_platform-3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NextLevel",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Textures/Blue-1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -6159,45 +6207,6 @@
               ]
             }
           ]
-        },
-        {
-          "name": "NextLevel",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Textures/Blue-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -8064,43 +8073,6 @@
               },
               "parameters": [
                 "Player",
-                "FlameGuy",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "Player",
-                "Dead",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Player",
                 "GiantButton",
                 "",
                 "",
@@ -8273,7 +8245,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.808
+        "zoomFactor": 0.832
       },
       "objectsGroups": [],
       "variables": [
@@ -8885,8 +8857,8 @@
           "locked": false,
           "name": "climable",
           "persistentUuid": "5ce0d0a7-35a3-453b-bd61-a9e46caa7bad",
-          "width": 30,
-          "x": 1189,
+          "width": 26,
+          "x": 1193,
           "y": 101,
           "zOrder": 8,
           "numberProperties": [],
@@ -9675,8 +9647,8 @@
           "name": "YetiStopperLeft",
           "persistentUuid": "7a75edf0-0760-4aab-8f04-e953a9bb67ec",
           "width": 31,
-          "x": 122,
-          "y": -246,
+          "x": -160,
+          "y": -231,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -9701,29 +9673,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 149,
-          "layer": "",
-          "locked": false,
-          "name": "Shaker",
-          "persistentUuid": "c96a021e-ced1-48ab-861b-cfae881e2c40",
-          "width": 127,
-          "x": -56,
-          "y": -214,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 111,
           "layer": "",
           "locked": false,
           "name": "MovingClimable",
           "persistentUuid": "a6ec6e04-4e42-4498-bcd8-47adbba340f2",
           "width": 17,
-          "x": 1199,
+          "x": 1198,
           "y": -2,
           "zOrder": 20,
           "numberProperties": [],
@@ -9770,10 +9726,386 @@
           "locked": false,
           "name": "climable",
           "persistentUuid": "62dd19af-e232-4a31-aa91-7cc6f468915b",
-          "width": 30,
-          "x": 322,
+          "width": 25,
+          "x": 325,
           "y": 103,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 149,
+          "layer": "",
+          "locked": false,
+          "name": "Shaker",
+          "persistentUuid": "0977bb96-21a9-492c-811f-b1cecaa2ef0d",
+          "width": 127,
+          "x": -56,
+          "y": -214,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 165,
+          "layer": "",
+          "locked": false,
+          "name": "YetiStopperLeft",
+          "persistentUuid": "d0cf60b4-d227-4a2a-b56f-4fe86af53433",
+          "width": 31,
+          "x": 122,
+          "y": -246,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 27,
+          "layer": "",
+          "locked": false,
+          "name": "LevelEnd",
+          "persistentUuid": "d1d5031c-daa5-4851-8f36-1a9c29f835b7",
+          "width": 349,
+          "x": 1004,
+          "y": -86,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 31,
+          "layer": "",
+          "locked": false,
+          "name": "LevelEnd",
+          "persistentUuid": "3585696b-2c66-441a-892a-cbef6f203067",
+          "width": 349,
+          "x": 195,
+          "y": -85,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "NextLevel",
+          "persistentUuid": "44436811-a3d9-43e0-96ed-2a62707fbde1",
+          "width": 533,
+          "x": 489,
+          "y": -649,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "4fbfbcc5-f0bc-415e-9a99-469d250dca1e",
+          "width": 43,
+          "x": 120,
+          "y": 144,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "b6d7e2eb-5fbe-45af-9af5-3d0ed03f4af1",
+          "width": 43,
+          "x": 382,
+          "y": 718,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "0ee79cbb-886f-42e8-800c-1ad64002bc5d",
+          "width": 43,
+          "x": 961,
+          "y": 710,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "573b78a6-2a1b-46e9-9770-f532d10df3ab",
+          "width": 43,
+          "x": 605,
+          "y": 715,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "e8c3c582-41a3-41d4-afb3-64f29081bdf9",
+          "width": 43,
+          "x": 588,
+          "y": 525,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "42afaf53-c8e5-49d9-ad07-63b63b3672f5",
+          "width": 43,
+          "x": 322,
+          "y": 521,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "5398b999-3aee-48ac-8214-9f93124ab8c2",
+          "width": 43,
+          "x": 1032,
+          "y": 523,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "FlameGuy",
+          "persistentUuid": "eff8d793-bd77-4b3b-9c4d-c16591c95fdb",
+          "width": 43,
+          "x": 1109,
+          "y": 143,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Direction",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectRight",
+          "persistentUuid": "650f64bc-b561-441b-a321-7cbeb63887b4",
+          "width": 32,
+          "x": 96,
+          "y": 705,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectRight",
+          "persistentUuid": "e4db91a1-e330-46b7-b7cc-cb99a7ad4685",
+          "width": 32,
+          "x": 79,
+          "y": 504,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectRight",
+          "persistentUuid": "bd102088-1371-4726-8367-5f5866df9d84",
+          "width": 32,
+          "x": 55,
+          "y": 125,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectLeft",
+          "persistentUuid": "466c84d3-fd1e-4a00-837d-53660b332420",
+          "width": 25,
+          "x": 415,
+          "y": 130,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 72,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectRight",
+          "persistentUuid": "5dacd4ff-a869-4487-8ec0-739e84b5cb8a",
+          "width": 32,
+          "x": 839,
+          "y": 123,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectLeft",
+          "persistentUuid": "c5b8f9aa-ba53-46a0-a4ad-be66e3761f68",
+          "width": 25,
+          "x": 1254.31,
+          "y": 702.212,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "ReDirectLeft",
+          "persistentUuid": "ec3d4807-7dde-4f74-9f63-da9a0d345056",
+          "width": 25,
+          "x": 1278,
+          "y": 128,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1128,
+          "layer": "",
+          "locked": false,
+          "name": "IceBg3",
+          "persistentUuid": "5c1973a4-ab0d-42af-8372-e777f7c85813",
+          "width": 1403,
+          "x": -13,
+          "y": -316,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9906,6 +10238,45 @@
               ]
             }
           ]
+        },
+        {
+          "name": "IceBg3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Textures/IceBg3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -9917,6 +10288,24 @@
             "includeConfig": 0
           },
           "target": "Motion"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "EnemyMovement"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "TuxDeath"
         },
         {
           "disabled": false,
@@ -9995,6 +10384,18 @@
                 "FlyingPlatform",
                 "=",
                 "Yeti.X()-50"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Penny",
+                "=",
+                "FlyingPlatform.Y()-45"
               ],
               "subInstructions": []
             }
@@ -10159,6 +10560,36 @@
                 "MovingClimable"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ReDirectRight"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "ReDirectLeft"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "LevelEnd"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10256,7 +10687,7 @@
               "parameters": [
                 "RandomNum",
                 "<",
-                "6"
+                "9"
               ],
               "subInstructions": []
             }
@@ -10396,6 +10827,20 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "actions": [
@@ -10429,6 +10874,20 @@
                 "Direction",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "LevelEnd",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -10648,6 +11107,38 @@
                     "CameraY()+10",
                     "0",
                     "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "crash.wav",
+                    "",
+                    "-30",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11336,7 +11827,42 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Yeti",
+                    "=",
+                    "769"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -11362,18 +11888,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Level 2\"",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "StopSoundCanal"
               },
               "parameters": [
@@ -11394,7 +11908,76 @@
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 2\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 1\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -11682,6 +12265,18 @@
               "parameters": [
                 "Player",
                 "PlatformerObject"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -12622,6 +13217,40 @@
                 }
               ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Level 3\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
         },
@@ -12651,6 +13280,43 @@
               "parameters": [
                 "Player",
                 "WoodPlatform",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Dead",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "FlameGuy",
                 "",
                 "",
                 ""
